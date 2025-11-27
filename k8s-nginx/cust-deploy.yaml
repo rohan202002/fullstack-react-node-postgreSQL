@@ -16,6 +16,6 @@ spec:
     spec: 
       containers:
       - name: cust-app
-        image: rohan7739/react-server-app: prod-0.1.9
+        image: rohan7739/react-server-app:prod-0.1.9
         ports:
         - targetPort: 3000
