@@ -19,3 +19,5 @@ spec:
         image: rohan7739/react-server-app:prod-0.1.9
         ports:
         - containerPort: 3000
+      imagePullSecrets:
+        - name: my-registry-secret
