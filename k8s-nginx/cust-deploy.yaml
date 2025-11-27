@@ -11,6 +11,8 @@ spec:
   template: 
     metadata:
       name: react-cust-app
+    labels:
+      app: react
     spec: 
       containers:
       - name: cust-app
